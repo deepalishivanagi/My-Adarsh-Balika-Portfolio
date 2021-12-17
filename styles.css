@@ -82,7 +82,13 @@ margin: auto;
     display: inline;
     padding: 0rem 1rem;
 }
-
+ 
+.lis-proj
+{
+    margin-left: 4rem;
+    margin-right: 1rem; 
+    
+}
 /**Navigation**/
 .navigation {
     background-color: var(--primary-color);
@@ -122,6 +128,7 @@ margin: auto;
     max-width: 600px;
     margin: auto;
     display: block;
+    /* padding: 1rem; */
 }
 .header .header-head{
     padding: 1rem 2rem;
