@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component library</title>
+    <link href="/styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1>Deepali's component library</h1>
+    <p> Hi I am Deepali Shivanagi. I am attending neog camp course to learn programming specifically for web designing.
+        Currently I am learning html & css and trying to create my own portfolio.
+        I will be listing out all my covered points here below. </p>
+    <hr>
+    <h2>@Typography</h2>
+    <h3>Below are the list of headers tag in html:</h3>
+    <h1>Heading one</h1>
+    <h2>heading two</h2>
+    <h3>heading three</h3>
+    <h4>heading four</h4>
+    <h5>heading five</h5>
+    <h6>heading six</h6>
+
+    <h3>Paragraph:</h3>
+    <p>This tag is used to write the paragraph. It will print as you write in this tag and occupy the space upto the
+        end.
+        Hence it is called as block level alement </p>
+
+    <h3>Small text:</h3>
+    <small>This is relatively smaller tag which is semantic element in html. Here this tag is inline element as it
+        occupies only
+        the specified space rather than occupying the entire row </small>
+
+    <hr>
+    <h2>@Containers</h2>
+    <div>HTML provides a set of container tags. Those tags can contain an unspecified set of other tags.</div>
+    <h2>Fluid Container</h2>
+    <div class="container container-fluid">This fluid container will go till the end of the page.We haven't given any style to it.</div>
+    <h2>Centered Container</h2>
+    <div class="container container-center">This centered container will go till the specified width. You can see it is placed at center because of giving perticular max width style to it.</div>
+    <h4>Some of container tags are:</h4>
+    <ul>
+        <li>article</li>
+        <li>section</li>
+        <li>div</li>
+        <li>nav</li>
+        <li>aside</li>
+        <li>header</li>
+        <li>main</li>
+    </ul>
+
+    <hr>
+    <h2>@Links</h2>
+    <p>Links are something which connects to some other page and it again connects another page like this.
+        Here we use anchor tag with href address</p>
+    <p>primary link is like most & must use link. For example when creating any account login is primary &
+            after creating in profile edit or change is secondary link like this.</p>
+    <a class="link Primary-link" href=''>Primary link</a>
+
+    
+    <a class="link Secondary-link" href=''>Secondary link</a>
+
+    <hr>
+    <h2>@Lists</h2>
+    <h3>Unordered list: It comes with bullets</h3>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <h3>Unordered list: With no bullets</h3>
+    <ul class="list-no-bullets">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <h3>Unordered list:Inline list using style display</h3>
+    <ul class="list-no-bullets">
+        <li class="list-inline">one</li>
+        <li class="list-inline">two</li>
+        <li class="list-inline">three</li>
+    </ul>
+    <h3>Ordered list: It comes with serial numbers like 1,2,3 etc</h3>
+    <ol>
+        <li>egg</li>
+        <li>milk</li>
+        <li>bread</li>
+    </ol>
+    <h3>Ordered list: With reversed order by directly adding reverse in ol tag like 3,2,1 </h3>
+    <ol reversed>
+        <li>egg</li>
+        <li>milk</li>
+        <li>bread</li>
+    </ol>
+ 
+
+    <hr>
+    <h2>@Nav</h2>
+    <p>Navigation is like section of a page whose purpose is to provide navigation links within the
+         current document or other document. For example:Menus,indexes etc</p>
+         <nav class="navigation container">
+             <div class="nav-div">I am developer</div>
+             <ul class="list-no-bullets">
+                  <li class="list-inline"> <a class="link link-active" href='/'>Home</a></li>
+                  <li class="list-inline"><a class="link" href='/'>Projects</a></li>
+                  <li class="list-inline"><a class="link" href='/'>About</a></li>
+             </ul>
+         </nav>
+
+    <hr>
+    <h2>@Header</h2>
+    <header class="header">
+        <img class="header-img" src="/Images/Hero.svg"style="height: 400px;width: 500px;"> 
+        <h3 class="header-head">Adarsh balika <span class="highlight">the web developer</span></h3>
+    </header>
+
+    <hr>
+    <h2>@Section</h2>
+    <p></p>
+    <section class="section">
+        
+        <div class="white container-center">
+            <h3>Normal section/white section for css</h3>
+        <p>heading center,
+            padding top and bottom
+            ,This will have white background
+        </p>
+    </div>
+    </section>
+    <section class="section">
+        
+        <div class="off-white container-center">
+        <h3>off white section</h3>
+       <p>
+        background change
+        This will have grey back ground
+       </p>
+    </div>
+    </section>
+
+    <hr>
+    <h2>@Footer</h2>
+    <footer class="Footer">
+        <h3>Footer with big text, Inline lists, All centered</h3>
+        <ul class="list-no-bullets ">
+            <li class="list-inline"><a class="link" href="/">Social one</a></li>
+            <li class="list-inline"><a class="link" href="/">Social two</a></li>
+            <li class="list-inline"><a class="link" href="/">Social three</a></li>
+        </ul>
+
+        
+        
+    </footer>
+
+    <!-- <p>to comment we can just ctrl+ / </p> -->
+  
+    
+
+    
+</body>
+
+</html>
